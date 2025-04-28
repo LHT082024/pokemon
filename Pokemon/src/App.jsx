@@ -5,7 +5,7 @@ function App() {
    const Alice = new Trainer ("Alice", "Dragon", "Female");
    
    return(
-    <div>
+    <div className='aliceTxt'>
       <p>{Alice._name}</p>
       <p>{Alice._types}</p>
       <p>{Alice._gender}</p>
