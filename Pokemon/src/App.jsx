@@ -1,17 +1,15 @@
-import './App.css'
-import Trainer from './variables'
+import './App.css';
+import Trainer from './variables';
 
 function App() {
-   const Alice = new Trainer = ("Alice", "Dragon", "Fmeale")
+   const Alice = new Trainer ("Alice", "Dragon", "Female");
    
    return(
     <div>
       <p>{Alice._name}</p>
-      <p>{Alice._type}</p>
-      <p>{Alice._Female}</p>
+      <p>{Alice._types}</p>
+      <p>{Alice._gender}</p>
     </div>
-   )
-
+   );
 }
-
 export default App
