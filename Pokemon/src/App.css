@@ -14,8 +14,18 @@ p
   margin: 20px;
 }
 
-.dragonTeam
+.teamDragon
 {
-  width: 400px;
-  height: 500px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;
+  justify-content: center;
+  gap: 20px; */
+}
+
+.pokemon
+{
+  padding-left: 3px;
+  width: 200px;
+  height: 200px;
 }
