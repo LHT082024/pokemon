@@ -6,9 +6,9 @@ function App() {
    
    return(
     <div className='aliceTxt'>
-      <p>{Alice._name}</p>
-      <p>{Alice._types}</p>
-      <p>{Alice._gender}</p>
+      <p>Name: {Alice._name}</p>
+      <p>Pokemon type: {Alice._types}</p>
+      <p>Gender: {Alice._gender}</p>
     </div>
    );
 }
