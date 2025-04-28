@@ -7,8 +7,6 @@ class Trainer
     }
 }
 
-export default trainer; 
-
 class Team
 {
     constructor(pk1, pk2, pk3, pk4, pk5, pk6){
@@ -20,3 +18,5 @@ class Team
         this._pk6 = pk6;
     }
 }
+
+export {Trainer, Team}

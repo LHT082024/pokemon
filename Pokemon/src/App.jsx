@@ -1,5 +1,5 @@
 import './App.css';
-import Trainer from './variables';
+import {Trainer} from './variables';
 
 function App() {
    const Alice = new Trainer ("Alice", "Dragon", "Female");
