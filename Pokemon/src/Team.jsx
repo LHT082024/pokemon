@@ -1,7 +1,7 @@
-import './App.css';
+import './masterCss.css';
 import { Team } from "./variables";
 
-function DragonTeam()
+function dragonTeam()
 {
     return(
    <div className="teamDragon">
@@ -15,4 +15,4 @@ function DragonTeam()
     )
 }
 
-export default DragonTeam
+export default dragonTeam

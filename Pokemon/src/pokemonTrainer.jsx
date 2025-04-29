@@ -1,8 +1,8 @@
 import './masterCss.css';
-import {Trainer} from './variables';
+import {trainer} from './variables';
 
-function App() {
-   const Alice = new Trainer ("Alice", "Dragon", "Female");
+function pokemonTrainer() {
+   const Alice = new trainer("Alice", "Dragon", "Female");
    
    return(
     <div className='aliceTxt'>
@@ -12,4 +12,4 @@ function App() {
     </div>
    );
 }
-export default App
+export default pokemonTrainer
