@@ -1,4 +1,4 @@
-import './masterCss.css';
+import './css/masterCss.css';
 import { Team } from "./variables";
 
 function DragonTeam()
