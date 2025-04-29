@@ -1,4 +1,4 @@
-import './App.css';
+import './masterCss.css';
 import {Trainer} from './variables';
 
 function App() {
