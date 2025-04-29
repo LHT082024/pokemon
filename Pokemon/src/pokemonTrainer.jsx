@@ -3,7 +3,7 @@ import {Trainer} from './variables';
 
 function PokemonTrainer() {
    const Alice = new Trainer("Alice", "Dragon", "Female");
-   
+
    return(
     <div className='aliceTxt'>
       <p>Name: {Alice._name}</p>

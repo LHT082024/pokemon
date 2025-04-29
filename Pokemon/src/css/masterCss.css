@@ -1,8 +1,19 @@
+body, html, #root 
+{
+  height: 100%;
+  margin: 0;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .aliceTxt
 {
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
   padding-bottom: 30px;
 }
 
@@ -18,8 +29,12 @@ p
 {
   display: flex;
   flex-direction: row;
-  /* padding-left: px; */
-  gap: 10px;
+  gap: 7px;
+  padding-bottom: 5px;
+  align-items: flex-end;
+  justify-content: center;
+  height: 220px;
+  margin-top: auto
 }
 
 .pokemon
