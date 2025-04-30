@@ -30,7 +30,7 @@ p
 
 
 /* pokemon */
-button
+.pokemonButton
 {
  padding: 0px;
 }
@@ -40,7 +40,7 @@ button
   display: flex;
   flex-direction: row;
   gap: 8px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   align-items: flex-end;
   justify-content: center;
   height: 220px;
