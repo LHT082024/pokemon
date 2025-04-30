@@ -4,6 +4,11 @@ body, html, #root
   margin: 0;
 }
 
+button
+{
+  
+}
+
 .appContainer {
   display: flex;
   flex-direction: column;
