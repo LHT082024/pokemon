@@ -1,12 +1,8 @@
+/* styling for main html document */
 body, html, #root 
 {
   height: 100%;
   margin: 0;
-}
-
-button
-{
-  
 }
 
 .appContainer {
@@ -15,6 +11,8 @@ button
   height: 100%;
 }
 
+
+/* for the pokemonTrainer */
 .aliceTxt
 {
   display: flex;
@@ -30,11 +28,18 @@ p
   margin: 20px;
 }
 
+
+/* pokemon */
+button
+{
+ padding: 0px;
+}
+
 .teamDragon
 {
   display: flex;
   flex-direction: row;
-  gap: 7px;
+  gap: 8px;
   padding-bottom: 5px;
   align-items: flex-end;
   justify-content: center;
@@ -46,5 +51,4 @@ p
 {
   width: 200px;
   height: 200px;
-  border: 3px dotted black;
 }

@@ -5,7 +5,7 @@ function DragonTeam()
 {
     return(
    <div className="teamDragon">
-    <button onClick={"button clicked"}>
+    <button className='pokemonButton'>
         <img className='pokemon' src="./src/assets/pokemon/Zekrom.png" alt="Zekrom" />
     </button>
     <button>
