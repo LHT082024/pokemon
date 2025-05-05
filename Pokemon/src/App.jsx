@@ -1,15 +1,19 @@
 import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import PokemonTrainer from "./pokemonStuff/PokemonTrainer";
+import { TrainerImages } from "./variables";
 import DragonTeam from "./pokemonStuff/Team";
 
 function App() 
 {
+  const trainer = new TrainerImages();
+  const img = trainer.imgsTrain;
     return (
+        
     <div>
         <nav>
             <Link to="/Team">
-                 <button>Team</button>
+                 <button>
+                    <img src={img[0]} alt="" /></button>
             </Link>
         </nav>
         <Routes>

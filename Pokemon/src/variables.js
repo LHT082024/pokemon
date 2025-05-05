@@ -19,4 +19,14 @@ class Teams
     }
 }
 
-export {Trainer, Teams}
+class TrainerImages {
+    constructor() {
+        this.imgsTrain = [
+            "/src/assets/trainer/Nate.png",
+            "/src/assets/trainer/Red.png"
+        ];
+    }
+}
+
+
+export {Trainer, Teams, TrainerImages}
