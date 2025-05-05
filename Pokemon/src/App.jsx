@@ -10,43 +10,39 @@ function App()
   const img = trainer.imgsTrain;
     return (
         
-    <div id="trainerDisplay">
-        <nav>
+    <div>
+        <nav id="trainerDisplay">
             <Link to="/Team">
                  <button>
                     <img src={img[0]} alt="" id="trainerButton"/></button>
             </Link>
             <Link to="/Team">
                  <button>
-                    <img src={img[0]} alt="" id="trainerButton"/></button>
+                    <img src={img[1]} alt="" id="trainerButton"/></button>
             </Link>
             <Link to="/Team">
                  <button>
-                    <img src={img[0]} alt="" id="trainerButton"/></button>
+                    <img src={img[2]} alt="" id="trainerButton"/></button>
             </Link>
             <Link to="/Team">
                  <button>
-                    <img src={img[0]} alt="" id="trainerButton"/></button>
+                    <img src={img[3]} alt="" id="trainerButton"/></button>
             </Link>
             <Link to="/Team">
                  <button>
-                    <img src={img[0]} alt="" id="trainerButton"/></button>
+                    <img src={img[4]} alt="" id="trainerButton"/></button>
             </Link>
             <Link to="/Team">
                  <button>
-                    <img src={img[0]} alt="" id="trainerButton"/></button>
+                    <img src={img[5]} alt="" id="trainerButton"/></button>
             </Link>
             <Link to="/Team">
                  <button>
-                    <img src={img[0]} alt="" id="trainerButton"/></button>
+                    <img src={img[6]} alt="" id="trainerButton"/></button>
             </Link>
             <Link to="/Team">
                  <button>
-                    <img src={img[0]} alt="" id="trainerButton"/></button>
-            </Link>
-            <Link to="/Team">
-                 <button>
-                    <img src={img[0]} alt="" id="trainerButton"/></button>
+                    <img src={img[7]} alt="" id="trainerButton"/></button>
             </Link>
         </nav>
         <Routes>

@@ -30,8 +30,8 @@ class TrainerImages {
             "/src/assets/trainer/Gold.png",
             "/src/assets/trainer/Hilbert.png",
             "/src/assets/trainer/Lucas.png",
-             "/src/assets/trainer/Nate.png",
-              "/src/assets/trainer/Red.png",
+            "/src/assets/trainer/Nate.png",
+            "/src/assets/trainer/Red.jpg"
         ];
     }
 }
