@@ -31,7 +31,7 @@ class TrainerImages {
             "/src/assets/trainer/Hilbert.png",
             "/src/assets/trainer/Lucas.png",
             "/src/assets/trainer/Nate.png",
-            "/src/assets/trainer/Red.jpg"
+            "/src/assets/trainer/Red.png"
         ];
     }
 }
