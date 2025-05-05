@@ -4,7 +4,7 @@ import { Routes, Route, Link } from "react-router-dom";
 //Components
 import { TrainerImages } from "./variables";
 import DragonTeam from "./pokemonStuff/Team";
-import trainerButton from "./pokemonStuff/TrainerButton";
+import TrainerButton from "./pokemonStuff/TrainerButton";
 import './styling/masterCss.css'
 
 function App() 
@@ -15,8 +15,12 @@ function App()
         
     <div>
         <nav id="trainerDisplay">
-         
+         <TrainerButton imgSrc={img[0]} linkTo="/Team" />
+         <TrainerButton imgSrc={img[1]} linkTo="/Team" />
+         <TrainerButton imgSrc={img[2]} linkTo="/Team" />
+         <TrainerButton imgSrc={img[3]} linkTo="/Team" />
         </nav>
+
         <Routes>
             <Route path="./pokemonStuff/Team" element={<DragonTeam />}/>
         </Routes>
