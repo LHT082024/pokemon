@@ -12,7 +12,7 @@ function App()
   const trainer = new TrainerImages();
   const img = trainer.imgsTrain;
     return (
-        
+        //Trainer buttons
     <div>
         <nav id="trainerDisplay">
          <TrainerButton imgSrc={img[0]} linkTo="/Team" />
@@ -27,6 +27,10 @@ function App()
          <TrainerButton imgSrc={img[6]} linkTo="/Team" />
          <TrainerButton imgSrc={img[7]} linkTo="/Team" />
         </nav>
+
+        <div id="trainerDisplay">
+            <img src="src\assets\pokedex.png" alt="" />
+        </div>
 
         <Routes>
             <Route path="./pokemonStuff/Team" element={<DragonTeam />}/>
