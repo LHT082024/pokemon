@@ -8,7 +8,7 @@ function App()
     return (
     <div>
         <nav>
-            <Link to="./pokemonStuff/Team">
+            <Link to="/Team">
                  <button>Team</button>
             </Link>
         </nav>
