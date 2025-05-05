@@ -5,24 +5,7 @@ body, html, #root
   margin: 0;
 }
 
-
-/* App.Jsx */
-
-.trainerRows
-{
-  display: flex;
-  flex-direction: row;
-}
-.trainerDisplay
-{
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-/* trainerButton*/
+/* trainerButton.jsx */
 #trainerButtonImg
 {
   width: 150px;
@@ -35,6 +18,21 @@ body, html, #root
   margin-left: 20px;
   margin-right: 20px;
   box-sizing: border-box;
+}
+
+/* App.Jsx */
+.trainerRows
+{
+  display: flex;
+  flex-direction: row;
+}
+.trainerDisplay
+{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .pokedexImage img

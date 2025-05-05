@@ -13,7 +13,7 @@ function App()
   const img = trainer.imgsTrain;
     return (
 
-        //Trainer buttons
+        //Trainer buttons with images and links
         <div className="trainerRows">
             <div className="trainerDisplay">
               <nav className="trainerRow">
@@ -34,11 +34,12 @@ function App()
                 <Route path="./pokemonStuff/Team" element={<DragonTeam />}/>
             </Routes>
             </div>
-                <div className="pokedexImage">
-                    <button className="pokedexButton">
-                        <img src="src/assets/pokedex.png" alt="Pokedex" />
-                    </button>
-                </div>
+
+            <div className="pokedexImage">
+              <button className="pokedexButton">
+                 <img src="src/assets/pokedex.png" alt="Pokedex" />
+              </button>
+            </div>
         </div>
     );
 }
