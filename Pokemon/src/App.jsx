@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import { TrainerImages } from "./variables";
 import DragonTeam from "./pokemonStuff/Team";
+import './styling/masterCss.css'
 
 function App() 
 {
@@ -9,11 +10,43 @@ function App()
   const img = trainer.imgsTrain;
     return (
         
-    <div>
+    <div id="trainerDisplay">
         <nav>
             <Link to="/Team">
                  <button>
-                    <img src={img[0]} alt="" /></button>
+                    <img src={img[0]} alt="" id="trainerButton"/></button>
+            </Link>
+            <Link to="/Team">
+                 <button>
+                    <img src={img[0]} alt="" id="trainerButton"/></button>
+            </Link>
+            <Link to="/Team">
+                 <button>
+                    <img src={img[0]} alt="" id="trainerButton"/></button>
+            </Link>
+            <Link to="/Team">
+                 <button>
+                    <img src={img[0]} alt="" id="trainerButton"/></button>
+            </Link>
+            <Link to="/Team">
+                 <button>
+                    <img src={img[0]} alt="" id="trainerButton"/></button>
+            </Link>
+            <Link to="/Team">
+                 <button>
+                    <img src={img[0]} alt="" id="trainerButton"/></button>
+            </Link>
+            <Link to="/Team">
+                 <button>
+                    <img src={img[0]} alt="" id="trainerButton"/></button>
+            </Link>
+            <Link to="/Team">
+                 <button>
+                    <img src={img[0]} alt="" id="trainerButton"/></button>
+            </Link>
+            <Link to="/Team">
+                 <button>
+                    <img src={img[0]} alt="" id="trainerButton"/></button>
             </Link>
         </nav>
         <Routes>

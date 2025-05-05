@@ -5,6 +5,18 @@ body, html, #root
   margin: 0;
 }
 
+
+/* App.Jsx */
+#trainerDisplay
+{
+  
+}
+#trainerButton
+{
+  width: 250px;
+  height: 400px;
+}
+
 /* .appContainer {
   display: flex;
   flex-direction: column;
