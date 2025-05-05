@@ -1,39 +1,39 @@
-/* styling for main html document */
-body, html, #root 
+styling for main html document
+body, html, #root
 {
   height: 100%;
   margin: 0;
 }
 
-.appContainer {
+/* .appContainer {
   display: flex;
   flex-direction: column;
   height: 100%;
-}
+} */
 
 
 /* for the pokemonTrainer */
-.aliceTxt
+/* .aliceTxt
 {
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
-}
+} */
 
-p
+/* p
 {
   width: 180px;
   border: 3px solid rgb(24, 29, 24);
   padding: 5px;
   margin: 20px;
-}
+} */
 
 
 /* pokemon */
-.pokemonButton
+ .pokemonButton
 {
  padding: 0px;
-}
+} 
 
 .teamDragon
 {
@@ -45,10 +45,10 @@ p
   justify-content: center;
   height: 220px;
   margin-top: auto
-}
+} 
 
 .pokemon
 {
   width: 200px;
   height: 200px;
-}
+} 

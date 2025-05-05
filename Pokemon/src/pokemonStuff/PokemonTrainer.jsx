@@ -1,4 +1,4 @@
-import './css/masterCss.css';
+// import './css/masterCss.css';
 import {Trainer} from '../variables';
 
 function PokemonTrainer() {

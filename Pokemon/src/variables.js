@@ -7,7 +7,7 @@ class Trainer
     }
 }
 
-class Team
+class Teams
 {
     constructor(pk1, pk2, pk3, pk4, pk5, pk6){
         this._pk1 = pk1;
@@ -19,4 +19,4 @@ class Team
     }
 }
 
-export {Trainer, Team}
+export {Trainer, Teams}
