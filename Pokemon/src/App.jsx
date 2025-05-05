@@ -33,11 +33,12 @@ function App()
             <Routes>
                 <Route path="./pokemonStuff/Team" element={<DragonTeam />}/>
             </Routes>
-
-            <div className="pokedexImage">
-            <img src="src/assets/pokedex.png" alt="Pokedex" />
             </div>
-            </div>
+                <div className="pokedexImage">
+                    <button className="pokedexButton">
+                        <img src="src/assets/pokedex.png" alt="Pokedex" />
+                    </button>
+                </div>
         </div>
     );
 }
