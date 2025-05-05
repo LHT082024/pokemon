@@ -1,5 +1,5 @@
 import './css/masterCss.css';
-import { Team } from "./variables";
+import { Team } from "../variables";
 
 function DragonTeam()
 {

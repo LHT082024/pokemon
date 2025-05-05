@@ -1,13 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import PokemonTrainer from './PokemonTrainer'
-import DragonTeam from './Team'
+import App from './App.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className="appContainer">
-    < PokemonTrainer/>
-    <DragonTeam />
-    </div>
+    <App />
   </StrictMode>,
 )
