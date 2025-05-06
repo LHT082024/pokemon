@@ -13,7 +13,7 @@ const router = createBrowserRouter(
       element: <App />
     },
     {
-      path: "/Team",
+      path: "/Team/:id",
       element: <DragonTeam />
     }
   ]
