@@ -17,17 +17,17 @@ function App()
         <div className="trainerRows">
             <div className="trainerDisplay">
               <nav className="trainerRow">
-            <TrainerButton imgSrc={img[0]} linkTo="/Team" />
-            <TrainerButton imgSrc={img[1]} linkTo="/Team" />
-            <TrainerButton imgSrc={img[2]} linkTo="/Team" />
-            <TrainerButton imgSrc={img[3]} linkTo="/Team" />
+            <TrainerButton id='blue' imgSrc={img[0]} linkTo="/Team" />
+            <TrainerButton id='calem' imgSrc={img[1]} linkTo="/Team" />
+            <TrainerButton id='elio' imgSrc={img[2]} linkTo="/Team" />
+            <TrainerButton id='gold' imgSrc={img[3]} linkTo="/Team" />
             </nav>
 
             <nav className="trainerDisplay">
-            <TrainerButton imgSrc={img[4]} linkTo="/Team" />
-            <TrainerButton imgSrc={img[5]} linkTo="/Team" />
-            <TrainerButton imgSrc={img[6]} linkTo="/Team" />
-            <TrainerButton imgSrc={img[7]} linkTo="/Team" />
+            <TrainerButton id='hilbert' imgSrc={img[4]} linkTo="/Team" />
+            <TrainerButton id='lucas' imgSrc={img[5]} linkTo="/Team" />
+            <TrainerButton id='nate' imgSrc={img[6]} linkTo="/Team" />
+            <TrainerButton id='red' imgSrc={img[7]} linkTo="/Team" />
             </nav>
 
             <Routes>
