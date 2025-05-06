@@ -3,27 +3,33 @@ import { Pokemons } from '../variables';
 import PokemonButton from './PokemonButton';
 import PokemonTrainer from './PokemonTrainer';
 
-function DragonTeam()
+function DragonTeam(selectedId)
 {
     const pokemon = new Pokemons();
     const img = pokemon.ImgPoke;
 
-         return(
-        <div className='1'>
+    switch(selectedId)
+    {
+        case '0':
+            return <div>
             < PokemonButton imgSrc={img[0]} />
             < PokemonButton imgSrc={img[1]} />
             < PokemonButton imgSrc={img[2]} />
             < PokemonButton imgSrc={img[3]} />
             < PokemonButton imgSrc={img[4]} />
-            < PokemonButton imgSrc={img[5]} />
-        </div>
-       )
+            < PokemonButton imgSrc={img[5]} />       
+            </div>;
+        
+        case '1':
+            return <div>working</div>;
+        
+        case '2':
+            return <div>lets go</div>;         
+    }
 
-       return(
-        <div className='2'>
-            <h1>lol</h1>
-        </div>
-       )
+         
+   
+
   
 }
 
