@@ -1,8 +1,13 @@
 {
     "Trainers": {
-        "name": "",
-        "pokemonType": "",
-        "gymbadge": "",
+        "trainerName": "",
+        "trainerImg": "",
+
+        "pokemonTypetxt": "",
+        "pokemonTypeImg": "",
+
+        "gymbadgeTxt": "",
+        "gymbadgeImg": "",
 
         "pokemonName1": "",
         "pokemonName2": "",
