@@ -8,3 +8,5 @@ function pokemonButton({imgSrc, linkTo})
         </Link>
     );     
 }
+
+export default pokemonButton
