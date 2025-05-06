@@ -4,10 +4,12 @@ import { Routes, Route, Link } from "react-router-dom";
 import { TrainerImages } from "./variables";
 import DragonTeam from "./pokemonStuff/Team";
 import TrainerButton from "./pokemonStuff/TrainerButton";
+import PokemonTmodel from "./pokemonTrainers";
 import './styling/masterCss.css'
 
 function App() 
 {
+  const trainerM = new PokemonTmodel();
   const trainer = new TrainerImages();
   const img = trainer.imgsTrain;
     return (
@@ -16,6 +18,10 @@ function App()
         <div className="trainerRows">
             <div className="trainerDisplay">
               <nav className="trainerRow">
+                <h1>{trainerM.trainerName}</h1>
+
+
+
             <TrainerButton id='blue' imgSrc={img[0]} linkTo="/Team/blue" />
             <TrainerButton id='calem'  imgSrc={img[1]} linkTo="/Team/calem" />
             <TrainerButton id='elio'  imgSrc={img[2]} linkTo="/Team/elio" />
