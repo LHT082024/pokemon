@@ -17,21 +17,21 @@ function App()
         <div className="trainerRows">
             <div className="trainerDisplay">
               <nav className="trainerRow">
-            <TrainerButton id='blue' imgSrc={img[0]} linkTo="/Team" />
-            <TrainerButton id='calem' imgSrc={img[1]} linkTo="/Team" />
-            <TrainerButton id='elio' imgSrc={img[2]} linkTo="/Team" />
-            <TrainerButton id='gold' imgSrc={img[3]} linkTo="/Team" />
+            <TrainerButton id='blue' imgSrc={img[0]} linkTo="/Team/blue" />
+            <TrainerButton id='calem'  imgSrc={img[1]} linkTo="/Team/calem" />
+            <TrainerButton id='elio'  imgSrc={img[2]} linkTo="/Team/elio" />
+            <TrainerButton id='gold' imgSrc={img[3]} linkTo="/Team/gold" />
             </nav>
 
             <nav className="trainerDisplay">
-            <TrainerButton id='hilbert' imgSrc={img[4]} linkTo="/Team" />
-            <TrainerButton id='lucas' imgSrc={img[5]} linkTo="/Team" />
-            <TrainerButton id='nate' imgSrc={img[6]} linkTo="/Team" />
-            <TrainerButton id='red' imgSrc={img[7]} linkTo="/Team" />
+            <TrainerButton id='hilbert' imgSrc={img[4]} linkTo="/Team/hilbert" />
+            <TrainerButton id='lucas' imgSrc={img[5]} linkTo="/Team/lucas" />
+            <TrainerButton id='nate' imgSrc={img[6]} linkTo="/Team/nate" />
+            <TrainerButton id='red' imgSrc={img[7]} linkTo="/Team/red" />
             </nav>
 
             <Routes>
-                <Route path="./pokemonStuff/Team" element={<DragonTeam />}/>
+                <Route path="/Team/:id" element={<DragonTeam />}/>
             </Routes>
             </div>
 

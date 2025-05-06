@@ -1,36 +1,41 @@
 import '../styling/masterCss.css'
 import { Pokemons } from '../variables';
+import { useParams } from 'react-router-dom';
 import PokemonButton from './PokemonButton';
-import PokemonTrainer from './PokemonTrainer';
 
-function DragonTeam(selectedId)
+function DragonTeam()
 {
     const pokemon = new Pokemons();
     const img = pokemon.ImgPoke;
+      const { id } = useParams();
 
-    switch(selectedId)
+    switch(id)
     {
-        case '0':
-            return <div>
+        case 'blue':
+            return (
+            <div>
             < PokemonButton imgSrc={img[0]} />
             < PokemonButton imgSrc={img[1]} />
             < PokemonButton imgSrc={img[2]} />
             < PokemonButton imgSrc={img[3]} />
             < PokemonButton imgSrc={img[4]} />
             < PokemonButton imgSrc={img[5]} />       
-            </div>;
+            </div>
+            );
         
-        case '1':
-            return <div>working</div>;
+        case 'calem':
+            return (
+            <div>working</div>
+            );
         
-        case '2':
-            return <div>lets go</div>;         
+        case 'elio':
+            return (
+
+                <div>lets go</div>        
+            );
+        default:
+        return <div>Trainer not found.</div>;
     }
-
-         
-   
-
-  
 }
 
 export default DragonTeam
