@@ -18,7 +18,7 @@ function App()
         <div className="trainerRows">
             <div className="trainerDisplay">
               <nav className="trainerRow">
-                <h1>{trainerM.trainerName}</h1>
+                <h1>{trainerM.trainerName = "blue"}</h1>
 
 
 

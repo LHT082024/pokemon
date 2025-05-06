@@ -1,14 +1,110 @@
 {
-    "Trainers": {
-        "trainerName": "",
-        "trainerImg": "",
+    "Trainers": [
+         {
+        "trainerName": "blue",
+        "trainerImg": "/trainer/Blue.png",
 
-        "pokemonTypeTxt": "",
-        "pokemonTypeImg": "",
+        "pokemonTypeTxt": "Water",
+        "pokemonTypeImg": "adress",
 
         "gymbadgeTxt": "",
         "gymbadgeImg": "",
 
-        "pokemons": [] 
-    }
+        "pokemons": [""] 
+    },
+
+    {
+         "trainerName": "calem",
+        "trainerImg": "/trainer/Calem.png",
+
+        "pokemonTypeTxt": "Water",
+        "pokemonTypeImg": "adress",
+
+        "gymbadgeTxt": "",
+        "gymbadgeImg": "",
+
+        "pokemons": [""] 
+
+    },
+
+    {
+         "trainerName": "elio",
+        "trainerImg": "/trainer/Elio.png",
+
+        "pokemonTypeTxt": "Water",
+        "pokemonTypeImg": "adress",
+
+        "gymbadgeTxt": "",
+        "gymbadgeImg": "",
+
+        "pokemons": [""] 
+    },
+
+     {
+         "trainerName": "gold",
+        "trainerImg": "/trainer/Gold.png",
+
+        "pokemonTypeTxt": "Water",
+        "pokemonTypeImg": "adress",
+
+        "gymbadgeTxt": "",
+        "gymbadgeImg": "",
+
+        "pokemons": [""] 
+    },
+
+     {
+         "trainerName": "hilbert",
+        "trainerImg": "/trainer/Hilbert.png",
+
+        "pokemonTypeTxt": "Water",
+        "pokemonTypeImg": "adress",
+
+        "gymbadgeTxt": "",
+        "gymbadgeImg": "",
+
+        "pokemons": [""] 
+    },
+
+     {
+         "trainerName": "lucas",
+        "trainerImg": "/trainer/Lucas.png",
+
+        "pokemonTypeTxt": "Water",
+        "pokemonTypeImg": "adress",
+
+        "gymbadgeTxt": "",
+        "gymbadgeImg": "",
+
+        "pokemons": [""] 
+    },
+
+     {
+         "trainerName": "nate",
+        "trainerImg": "/trainer/Nate.png",
+
+        "pokemonTypeTxt": "Dragon",
+        "pokemonTypeImg": "adress",
+
+        "gymbadgeTxt": "",
+        "gymbadgeImg": "",
+
+        "pokemons": ["Zekrom"] 
+    },
+    
+     {
+         "trainerName": "red",
+        "trainerImg": "/trainer/Red.png",
+
+        "pokemonTypeTxt": "Fire",
+        "pokemonTypeImg": "adress",
+
+        "gymbadgeTxt": "",
+        "gymbadgeImg": "",
+
+        "pokemons": [""] 
+    } 
+
+    ]
+    
 }
