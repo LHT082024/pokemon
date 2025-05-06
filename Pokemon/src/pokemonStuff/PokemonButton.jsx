@@ -1,4 +1,6 @@
-function pokemonButton({imgSrc, linkTo})
+import { Link } from 'react-router-dom'
+
+function PokemonButton({imgSrc, linkTo})
 {
    return(
         <Link to={linkTo}>
@@ -9,4 +11,4 @@ function pokemonButton({imgSrc, linkTo})
     );     
 }
 
-export default pokemonButton
+export default PokemonButton
