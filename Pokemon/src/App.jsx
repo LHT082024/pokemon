@@ -4,16 +4,11 @@ import { Routes, Route, Link, data } from "react-router-dom";
 import DragonTeam from "./pokemonStuff/Team";
 import TrainerButton from "./pokemonStuff/TrainerButton";
 import './styling/masterCss.css'
-import trainerData from "./assets/trainerModel.json";
+import trainerData from "./trainerModel.json";
 
 function App() 
 {
   const trainer = trainerData.Trainers
-  fetch("https://pokeapi.co/api/v2/pokemon/zekrom")
-  .then(response => response.json())
-  .then(data => console.log(data))
-  .catch(error => console.log(error));
-  console
     return (
 
         //Trainer buttons with images and links

@@ -2,24 +2,28 @@ import '../styling/masterCss.css'
 import { Pokemons } from '../variables';
 import { useParams } from 'react-router-dom';
 import PokemonButton from './PokemonButton';
+import trainerData from '../trainerModel.json'
 
 function DragonTeam()
 {
+    const trainer = trainerData.Trainers
     const pokemon = new Pokemons();
     const img = pokemon.ImgPoke;
       const { id } = useParams();
+ 
+   fetch("https://pokeapi.co/api/v2/pokemon/zekrom")
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.log(error));
 
     switch(id)
     {
         case 'blue':
             return (
-            <div>
-            < PokemonButton imgSrc={img[0]} />
-            < PokemonButton imgSrc={img[1]} />
-            < PokemonButton imgSrc={img[2]} />
-            < PokemonButton imgSrc={img[3]} />
-            < PokemonButton imgSrc={img[4]} />
-            < PokemonButton imgSrc={img[5]} />       
+            <div id='pokemonTeamB'>
+                <div>{trainer[0].trainerName}</div>
+                <div>{trainer[0].pokemons[0]}</div>
+                <div>{trainer[0].pokemons[1]}</div>
             </div>
             );
         
