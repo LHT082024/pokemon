@@ -1,110 +1,115 @@
 {
     "Trainers": [
-         {
-        "trainerName": "blue",
-        "trainerImg": "/trainer/Blue.png",
+            {
+            "trainerName": "blue",
+            "trainerImg": "/trainer/Blue.png",
+            "trainerid": 1,
 
-        "pokemonTypeTxt": "Water",
-        "pokemonTypeImg": "adress",
+            "pokemonTypeTxt": "water",
+            "pokemonTypeImg": "adress",
 
-        "gymbadgeTxt": "",
-        "gymbadgeImg": "",
+            "gymbadgeTxt": "",
+            "gymbadgeImg": "",
 
-        "pokemons": [""] 
-    },
+            "pokemons": ["blastoise", "vaporeon"] 
+        },
 
-    {
-         "trainerName": "calem",
-        "trainerImg": "/trainer/Calem.png",
+        {
+            "trainerName": "calem",
+            "trainerImg": "/trainer/Calem.png",
+            "trainerid": 2,
 
-        "pokemonTypeTxt": "Water",
-        "pokemonTypeImg": "adress",
+            "pokemonTypeTxt": "fairy",
+            "pokemonTypeImg": "adress",
 
-        "gymbadgeTxt": "",
-        "gymbadgeImg": "",
+            "gymbadgeTxt": "",
+            "gymbadgeImg": "",
 
-        "pokemons": [""] 
+            "pokemons": ["mawile", "flutter-mane"] 
 
-    },
+        },
 
-    {
-         "trainerName": "elio",
-        "trainerImg": "/trainer/Elio.png",
+        {
+            "trainerName": "elio",
+            "trainerImg": "/trainer/Elio.png",
+            "trainerid": 3,
 
-        "pokemonTypeTxt": "Water",
-        "pokemonTypeImg": "adress",
+            "pokemonTypeTxt": "grass",
+            "pokemonTypeImg": "adress",
 
-        "gymbadgeTxt": "",
-        "gymbadgeImg": "",
+            "gymbadgeTxt": "",
+            "gymbadgeImg": "",
 
-        "pokemons": [""] 
-    },
+            "pokemons": ["decidueye", "meowscarada", "serperior"] 
+        },
 
-     {
-         "trainerName": "gold",
-        "trainerImg": "/trainer/Gold.png",
+        {
+            "trainerName": "gold",
+            "trainerImg": "/trainer/Gold.png",
+            "trainerid": 4,
 
-        "pokemonTypeTxt": "Water",
-        "pokemonTypeImg": "adress",
+            "pokemonTypeTxt": "electric",
+            "pokemonTypeImg": "adress",
 
-        "gymbadgeTxt": "",
-        "gymbadgeImg": "",
+            "gymbadgeTxt": "",
+            "gymbadgeImg": "",
 
-        "pokemons": [""] 
-    },
+            "pokemons": ["raichu", "luxray", "emolga"] 
+        },
 
-     {
-         "trainerName": "hilbert",
-        "trainerImg": "/trainer/Hilbert.png",
+        {
+            "trainerName": "hilbert",
+            "trainerImg": "/trainer/Hilbert.png",
+            "trainerid": 5,
 
-        "pokemonTypeTxt": "Water",
-        "pokemonTypeImg": "adress",
+            "pokemonTypeTxt": "ice",
+            "pokemonTypeImg": "adress",
 
-        "gymbadgeTxt": "",
-        "gymbadgeImg": "",
+            "gymbadgeTxt": "",
+            "gymbadgeImg": "",
 
-        "pokemons": [""] 
-    },
+            "pokemons": ["glaceon", "articuno", "glalile", "weavile"] 
+        },
 
-     {
-         "trainerName": "lucas",
-        "trainerImg": "/trainer/Lucas.png",
+        {
+            "trainerName": "lucas",
+            "trainerImg": "/trainer/Lucas.png",
+            "trainerid": 6,
 
-        "pokemonTypeTxt": "Water",
-        "pokemonTypeImg": "adress",
+            "pokemonTypeTxt": "flying",
+            "pokemonTypeImg": "adress",
 
-        "gymbadgeTxt": "",
-        "gymbadgeImg": "",
+            "gymbadgeTxt": "",
+            "gymbadgeImg": "",
 
-        "pokemons": [""] 
-    },
+            "pokemons": ["scyther", "lugia", "gliscor", "gyarados", "staraptor"] 
+        },
 
-     {
-         "trainerName": "nate",
-        "trainerImg": "/trainer/Nate.png",
+        {
+            "trainerName": "nate",
+            "trainerImg": "/trainer/Nate.png",
 
-        "pokemonTypeTxt": "Dragon",
-        "pokemonTypeImg": "adress",
+            "pokemonTypeTxt": "dragon",
+            "pokemonTypeImg": "adress",
 
-        "gymbadgeTxt": "",
-        "gymbadgeImg": "",
+            "gymbadgeTxt": "",
+            "gymbadgeImg": "",
 
-        "pokemons": ["dragonai", "haxorus", "hydreigon", "kingdra", "salamence", "zekrom"] 
-    },
-    
-     {
-         "trainerName": "red",
-        "trainerImg": "/trainer/Red.png",
+            "pokemons": ["dragonai", "haxorus", "hydreigon", "salamence", "zekrom"] 
+        },
+        
+        {
+            "trainerName": "red",
+            "trainerImg": "/trainer/Red.png",
 
-        "pokemonTypeTxt": "Fire",
-        "pokemonTypeImg": "adress",
+            "pokemonTypeTxt": "fire",
+            "pokemonTypeImg": "adress",
 
-        "gymbadgeTxt": "",
-        "gymbadgeImg": "",
+            "gymbadgeTxt": "",
+            "gymbadgeImg": "",
 
-        "pokemons": [""] 
-    } 
-
+            "pokemons": ["charizard", "reshiram", "ninetails", "heatran", "blaziken", "flareon"] 
+        } 
     ]
     
 }
