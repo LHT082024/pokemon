@@ -2,7 +2,7 @@
     "Trainers": [
             {
             "trainerName": "blue",
-            "trainerImg": "/trainer/Blue.png",
+            "trainerImg": "/src/assets/trainer/Blue.png",
             "trainerid": 1,
 
             "pokemonTypeTxt": "water",
@@ -16,7 +16,7 @@
 
         {
             "trainerName": "calem",
-            "trainerImg": "/trainer/Calem.png",
+            "trainerImg": "/src/assets/trainer/Calem.png",
             "trainerid": 2,
 
             "pokemonTypeTxt": "fairy",
@@ -31,7 +31,7 @@
 
         {
             "trainerName": "elio",
-            "trainerImg": "/trainer/Elio.png",
+            "trainerImg": "/src/assets/trainer/Elio.png",
             "trainerid": 3,
 
             "pokemonTypeTxt": "grass",
@@ -45,7 +45,7 @@
 
         {
             "trainerName": "gold",
-            "trainerImg": "/trainer/Gold.png",
+            "trainerImg": "/src/assets/trainer/Gold.png",
             "trainerid": 4,
 
             "pokemonTypeTxt": "electric",
@@ -59,7 +59,7 @@
 
         {
             "trainerName": "hilbert",
-            "trainerImg": "/trainer/Hilbert.png",
+            "trainerImg": "/src/assets/trainer/Hilbert.png",
             "trainerid": 5,
 
             "pokemonTypeTxt": "ice",
@@ -73,7 +73,7 @@
 
         {
             "trainerName": "lucas",
-            "trainerImg": "/trainer/Lucas.png",
+            "trainerImg": "/src/assets/trainer/Lucas.png",
             "trainerid": 6,
 
             "pokemonTypeTxt": "flying",
@@ -87,7 +87,7 @@
 
         {
             "trainerName": "nate",
-            "trainerImg": "/trainer/Nate.png",
+            "trainerImg": "/src/assets/trainer/Nate.png",
 
             "pokemonTypeTxt": "dragon",
             "pokemonTypeImg": "adress",
@@ -100,7 +100,7 @@
         
         {
             "trainerName": "red",
-            "trainerImg": "/trainer/Red.png",
+            "trainerImg": "/src/assets/trainer/Red.png",
 
             "pokemonTypeTxt": "fire",
             "pokemonTypeImg": "adress",

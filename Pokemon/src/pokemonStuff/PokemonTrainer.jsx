@@ -1,15 +1,18 @@
-// import './css/masterCss.css';
-import {Trainer} from '../variables';
+import trainerData from "../assets/trainerModel.json";
 
 function PokemonTrainer() {
-   const Alice = new Trainer("Alice", "Dragon", "Female");
-
-   return(
-    <div className='aliceTxt'>
-      <p>Name: {Alice._name}</p>
-      <p>Pokemon type: {Alice._types}</p>
-      <p>Gender: {Alice._gender}</p>
-    </div>
-   );
+  console.log(trainerData)
+  return(
+    <div>
+      {trainerData.Trainers.map((el, index) => (
+        <div key={index}>
+          <p>{el.trainerName}</p>
+          <img src={el.trainerImg} alt="" />
+        </div>
+        
+      ))}
+    </div> 
+  );
+  
 }
 export default PokemonTrainer

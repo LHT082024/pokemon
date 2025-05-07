@@ -1,12 +1,3 @@
-class Trainer
-{
-    constructor(name, types, gender){
-        this._name = name;
-        this._types = types;
-        this._gender = gender;
-    }
-}
-
 class Pokemons
 {
     constructor(){
@@ -40,4 +31,4 @@ class TrainerImages
 }
 
 
-export {Trainer, TrainerImages, Pokemons}
+export {TrainerImages, Pokemons}
