@@ -14,8 +14,8 @@ function App()
         //Trainer buttons with images and links
         <div className="trainerRows">
             <div className="trainerDisplay">
+              
               <nav className="trainerRow">
-
             <TrainerButton id='blue' imgSrc={trainer[0].trainerImg} linkTo="/Team/blue" />
             <TrainerButton id='calem'  imgSrc={trainer[1].trainerImg} linkTo="/Team/calem" />
             <TrainerButton id='elio'  imgSrc={trainer[2].trainerImg} linkTo="/Team/elio" />
