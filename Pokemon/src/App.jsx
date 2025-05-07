@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link, data } from "react-router-dom";
 
 //Components
 import DragonTeam from "./pokemonStuff/Team";
@@ -9,6 +9,11 @@ import trainerData from "./assets/trainerModel.json";
 function App() 
 {
   const trainer = trainerData.Trainers
+  fetch("https://pokeapi.co/api/v2/pokemon/zekrom")
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.log(error));
+  console
     return (
 
         //Trainer buttons with images and links
