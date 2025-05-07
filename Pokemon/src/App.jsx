@@ -3,13 +3,11 @@ import { Routes, Route, Link } from "react-router-dom";
 //Components
 import DragonTeam from "./pokemonStuff/Team";
 import TrainerButton from "./pokemonStuff/TrainerButton";
-import PokemonTmodel from "./pokemonTrainers";
 import './styling/masterCss.css'
 import trainerData from "./assets/trainerModel.json";
 
 function App() 
 {
-  const trainerM = new PokemonTmodel();
   const trainer = trainerData.Trainers
     return (
 
