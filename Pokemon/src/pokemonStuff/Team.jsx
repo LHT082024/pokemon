@@ -1,12 +1,12 @@
 import '../styling/masterCss.css'
-import { Pokemons } from '../variables';
-import { useParams } from 'react-router-dom';
+import { data, useParams } from 'react-router-dom';
 import trainerData from '../trainerModel.json'
 
 function DragonTeam()
 {
     const trainer = trainerData.Trainers
     const pokemon = "";
+    const datas = "";
       const { id } = useParams();
 
          function fetchData(pokemon)
@@ -23,13 +23,14 @@ function DragonTeam()
     switch(id)
     {
         case 'blue':
+            //decides this trainer is the right one
             trainer[0].pokemons.forEach(pokemon =>{
                 fetchData(pokemon);
             })
-            
+
             return (
             <div id='pokemonTeamB'>
-                <p>{pokemon}</p>
+                <p>{data}</p>
             </div>
             );
         
