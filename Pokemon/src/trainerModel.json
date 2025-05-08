@@ -4,6 +4,7 @@
             "trainerName": "blue",
             "trainerImg": "/src/assets/trainer/Blue.png",
             "trainerid": 1,
+            "link": "/Team/blue",
 
             "pokemonTypeTxt": "water",
             "pokemonTypeImg": "adress",
@@ -18,6 +19,7 @@
             "trainerName": "calem",
             "trainerImg": "/src/assets/trainer/Calem.png",
             "trainerid": 2,
+            "link": "/Team/calem",
 
             "pokemonTypeTxt": "fairy",
             "pokemonTypeImg": "adress",
@@ -33,6 +35,7 @@
             "trainerName": "elio",
             "trainerImg": "/src/assets/trainer/Elio.png",
             "trainerid": 3,
+            "link": "/Team/elio",
 
             "pokemonTypeTxt": "grass",
             "pokemonTypeImg": "adress",
@@ -47,6 +50,7 @@
             "trainerName": "gold",
             "trainerImg": "/src/assets/trainer/Gold.png",
             "trainerid": 4,
+            "link":"/Team/gold",
 
             "pokemonTypeTxt": "electric",
             "pokemonTypeImg": "adress",
@@ -61,6 +65,7 @@
             "trainerName": "hilbert",
             "trainerImg": "/src/assets/trainer/Hilbert.png",
             "trainerid": 5,
+            "link":"/Team/hilbert",
 
             "pokemonTypeTxt": "ice",
             "pokemonTypeImg": "adress",
@@ -75,6 +80,7 @@
             "trainerName": "lucas",
             "trainerImg": "/src/assets/trainer/Lucas.png",
             "trainerid": 6,
+            "link":"/Team/lucas",
 
             "pokemonTypeTxt": "flying",
             "pokemonTypeImg": "adress",
@@ -88,6 +94,7 @@
         {
             "trainerName": "nate",
             "trainerImg": "/src/assets/trainer/Nate.png",
+            "link":"/Team/nate",
 
             "pokemonTypeTxt": "dragon",
             "pokemonTypeImg": "adress",
@@ -101,6 +108,7 @@
         {
             "trainerName": "red",
             "trainerImg": "/src/assets/trainer/Red.png",
+            "link":"/Team/red",
 
             "pokemonTypeTxt": "fire",
             "pokemonTypeImg": "adress",

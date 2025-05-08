@@ -1,20 +1,20 @@
 
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import DragonTeam from './pokemonStuff/Team.jsx';
+import App from './App.jsx' 
+import DragonTeam from './pokemonStuff/Team';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter(
   [
     {
-      path: "/",
+      path: "*",
       element: <App />
     },
-    {
+     {
       path: "/Team/:id",
-      element: <DragonTeam />
-    }
+      element: <DragonTeam/>,
+    } 
   ]
 );
 

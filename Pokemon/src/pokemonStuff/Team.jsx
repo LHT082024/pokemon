@@ -1,52 +1,17 @@
-import '../styling/masterCss.css'
-import { data, useParams } from 'react-router-dom';
-import trainerData from '../trainerModel.json'
+import { useLocation } from "react-router-dom"
+import { PokemonCard } from "./PokemonCard"
 
-function DragonTeam()
+function DragonTeam(props)
 {
-    const trainer = trainerData.Trainers
-    const pokemon = "";
-    const datas = "";
-      const { id } = useParams();
-
-         function fetchData(pokemon)
-            {
-                
-        fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(error => console.log(error));
-
-            }
-
-
-    switch(id)
-    {
-        case 'blue':
-            //decides this trainer is the right one
-            trainer[0].pokemons.forEach(pokemon =>{
-                fetchData(pokemon);
-            })
-
-            return (
-            <div id='pokemonTeamB'>
-                <p>{data}</p>
-            </div>
-            );
-        
-        case 'calem':
-            return (
-            <div>working</div>
-            );
-        
-        case 'elio':
-            return (
-
-                <div>lets go</div>        
-            );
-        default:
-        return <div>Trainer not found.</div>;
-    }
+    const location  = useLocation();
+    const trainer = location.state;
+    console.log(trainer);
+    console.log(location);
+    return (
+        <>
+        {trainer.pokemons.map(pokemon => <PokemonCard pokemon={pokemon}></PokemonCard>)}
+        </>
+    )
 }
 
-export default DragonTeam
+export default DragonTeam 
