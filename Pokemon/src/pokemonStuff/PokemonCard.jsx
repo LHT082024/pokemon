@@ -1,6 +1,4 @@
 import '../styling/masterCss.css'   
-import { data, useParams } from 'react-router-dom';
-import trainerData from '../trainerModel.json'
 import { useState, useEffect } from 'react';
 
 

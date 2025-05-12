@@ -1,4 +1,4 @@
-import { Routes, Route, Link, data } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import TrainerButton from "./pokemonStuff/TrainerButton";
 import DragonTeam from "./pokemonStuff/Team";
